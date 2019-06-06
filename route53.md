@@ -7,6 +7,7 @@
 - Prefer Alias records
 
 ## DNS Types
+
 - SOA
 - NS
 - CNAME
@@ -14,22 +15,24 @@
 - PTR
 
 ## Routing polcies
+
 - Simple
-    - 1 record, multiple IPs
+  - 1 record, multiple IPs
 - Weighted
-    - Proportion of traffic
+  - Proportion of traffic
 - Latency-based
-    - Measured time to server
+  - Measured time to server
 - Failover
-    - Healthcheck
-    - Active/Passive configuration
+  - Healthcheck
+  - Active/Passive configuration
 - Geolocation
-    - What it says on the tin - IP based geolocation
+  - What it says on the tin - IP based geolocation
 - Geoproximity
-    - Not in CSAA
-    - Route based on location of users + resources
+  - Not in CSAA
+  - Route based on location of users + resources
 - Multivalue answer routing
-    - Simple, except with healthchecks
+  - Simple, except with healthchecks
 
 ## Healthchecks
+
 - Failing records removed until passing

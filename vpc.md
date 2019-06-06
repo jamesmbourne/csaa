@@ -51,17 +51,17 @@ NOT default:
 3. IGW
    - Attach
 4. Route Table
-    - Local full CIDR block
-    - Main route table private
-    - Custom route table - public
-    - 0.0.0.0/0 - target IGW
-    - ::/0 - target IGW
-    - Associate with public SN
+   - Local full CIDR block
+   - Main route table private
+   - Custom route table - public
+   - 0.0.0.0/0 - target IGW
+   - ::/0 - target IGW
+   - Associate with public SN
 5. NAT Gateway/Instance
-    - Allow private SNs to access internet
-    - Must be placed in public subnet
-    - Src/dest check disabled to allow handling traffic for other instances
-    - Route table: 0.0.0.0/0 - NAT Gateway
+   - Allow private SNs to access internet
+   - Must be placed in public subnet
+   - Src/dest check disabled to allow handling traffic for other instances
+   - Route table: 0.0.0.0/0 - NAT Gateway
 
 ## IGW
 

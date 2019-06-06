@@ -60,10 +60,11 @@
 
 - Memcached (simple)
 - Redis (advanced)
-    - Backups
-    - Multi-AZ
+  - Backups
+  - Multi-AZ
 
 ## Aurora
+
 - 2 copies per AZ
 - 3 AZ minimum
 - 6 copies
